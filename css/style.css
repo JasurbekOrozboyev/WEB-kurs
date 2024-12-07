@@ -9,12 +9,14 @@ header{
     padding-top: 5px;
 }
 .container{
-    width: 90%;
+    width: 900%;
     margin: 0 auto;
+    max-width: 1500px;
+
 }
 main{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -41,7 +43,7 @@ main .hover ul li:hover{
 header .container .text{
     width: 964px;
     height: 372px;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 .text h1{
     font-size: 48px;
@@ -82,14 +84,14 @@ header .container .text{
 
 /* <<<<<<<<<<<<>>>>>>>>>>>>> */
 section{
-    height: 957px;
+    height: 700px;
 }
 
 .container .lesson{
     width: 1221px;
     height: 692px;
     align-items: center;
-    margin-top: 133px;
+    margin-top: 100px;
 }
 .lesson .text h2{
     width: 274px;
@@ -379,6 +381,7 @@ footer .parent .child input{
     padding-left: 10px;
     font-size: 18px;
     margin-bottom: 25px;
+    
 }
 
 
